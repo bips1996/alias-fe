@@ -9,9 +9,11 @@ const HomePage: React.FC = () => {
   return (
     <Container>
       <Typography variant="h3" gutterBottom>
-        Welcome to Chat App
+        Welcome to Incog
       </Typography>
-      <Button variant="contained" color="primary" onClick={() => navigate("/chat")}>Go to Chat</Button>
+      <Button variant="contained" color="primary" onClick={() => navigate("/chat")}>
+        Go to Chat
+      </Button>
     </Container>
   );
 };
